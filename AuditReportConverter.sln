@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditReportConverter", "AuditReportConverter\AuditReportConverter.csproj", "{75464D6D-B6CA-4E98-B792-4A93C8F2E7A4}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{9D52FAFF-261D-4A03-AA51-9ABEF3910CDD}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupAuditReportConverter", "Setup1\Setup1.vdproj", "{9D52FAFF-261D-4A03-AA51-9ABEF3910CDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {393AD468-8909-489B-BF84-67130A5F164B}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
